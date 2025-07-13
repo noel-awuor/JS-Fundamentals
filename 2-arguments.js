@@ -1,5 +1,3 @@
-import process from "node:process";
-
 const args = process.argv;
 const lengthOfArgs = args.length;
 
