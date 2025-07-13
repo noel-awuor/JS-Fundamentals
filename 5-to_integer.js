@@ -1,5 +1,5 @@
 const first = process.argv[2];
-const isNumber = isNaN(Number(first))
+const isNumber = !isNaN(Number(first))
 
 console.log(first, isNumber)
 
